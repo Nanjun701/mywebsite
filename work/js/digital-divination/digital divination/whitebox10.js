@@ -66,7 +66,7 @@ elementBtns.forEach(btn => {
     btn.classList.add("active");
 
     // 获取数据
-    const resp = await fetch("/work/js/digital-divination/digital divination/positions1.json");
+    const resp = await fetch("./positions1.json");
     const positions = await resp.json();
 
     const list  = positions[chosenSpirit][chosenElement];
