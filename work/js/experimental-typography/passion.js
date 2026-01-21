@@ -3,7 +3,7 @@ let textTop, textBottom;
 let fontSize = 110;  // 根据画布大小适当调整字体大小
 
 function preload() {
-  font = loadFont('../../assets/font/Wishcar Moundy.otf'); // 预加载字体
+  font = loadFont('../../../assets/font/Wishcar Moundy.otf'); // 预加载字体
 }
 
 function setup() {
