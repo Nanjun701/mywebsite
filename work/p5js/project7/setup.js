@@ -59,19 +59,19 @@ let shutterSound
 let bgm
 
 function preload() {
-  mapImg       = loadImage('project7/assets/NYCmap.png');
-  customer     = loadImage('project7/assets/character/customer.png');
-  file      = loadImage('project7/assets/file.png');
-  me           = loadImage('project7/assets/character/me.png');
-  meCam        = loadImage('project7/assets/character/meCam.png');
-  pixelFont    = loadFont('project7/assets/pixelFont.ttf');
-  camera    = loadImage('project7/assets/camera.png');
-  flashing  = loadImage('project7/assets/character/flashlight.png');
-  shutterSound = loadSound('project7/assets/shutter.mp3');
-  bgm          = loadSound('project7/assets/bgm.mp3');
+  mapImg       = loadImage('./assets/NYCmap.png');
+  customer     = loadImage('./assets/character/customer.png');
+  file      = loadImage('./assets/file.png');
+  me           = loadImage('./assets/character/me.png');
+  meCam        = loadImage('./assets/character/meCam.png');
+  pixelFont    = loadFont('./assets/pixelFont.ttf');
+  camera    = loadImage('./assets/camera.png');
+  flashing  = loadImage('./assets/character/flashlight.png');
+  shutterSound = loadSound('./assets/shutter.mp3');
+  bgm          = loadSound('./assets/bgm.mp3');
 
 for (let i = 0; i < photoNum; i++) {
-  photoImgs[i] = loadImage(`project7/assets/album/photo${i + 1}.jpg`);
+  photoImgs[i] = loadImage(`./assets/album/photo${i + 1}.jpg`);
 }
 
 }
