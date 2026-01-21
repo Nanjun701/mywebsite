@@ -2,7 +2,7 @@ let font;
 let textEffect;
 
 function preload() {
-  font = loadFont('../../../assets/font/Wishcar Moundy.otf');
+  font = loadFont('Wishcar Moundy.otf');
 }
 
 function setup() {

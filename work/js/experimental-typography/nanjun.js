@@ -4,7 +4,7 @@ let currentOrder = 0; // 当前已放大的粒子序号
 let fontSize = 100;   // 字体大小
 
 function preload() {
-  font = loadFont('../../../assets/font/Wishcar Moundy.otf'); // 预加载字体
+  font = loadFont('Wishcar Moundy.otf'); // 预加载字体
 }
 
 function setup() {
